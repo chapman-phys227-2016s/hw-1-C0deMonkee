@@ -1,8 +1,8 @@
 # PHYS227 HW 1
 
-**Author:** _\Austin Ayers\_
+**Author:** _Austin Ayers_
 
-[![Build Status](https://travis-ci.org/chapman-phys227-2016s/hw-1-C0demonkee.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/hw-1-C0demonkee)
+[![Build Status](https://travis-ci.org/chapman-phys227-2016s/hw-1-C0deMonkee.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/hw-1-C0deMonkee)
 
 **Due date:** 2016/02/09
 
@@ -30,4 +30,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-_\Austin Ayers\_
+_Austin Ayers_
