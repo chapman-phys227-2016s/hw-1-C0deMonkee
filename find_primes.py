@@ -29,3 +29,8 @@ def find_primes(n):
 def test_primse():
     nums = find_primes(100)
     assert(next(nums) == 2 and next(nums) == 3 and next(nums) == 5 and next(nums) == 7 and next(nums) == 11)
+
+def output():
+    nums = find_primes(100)
+    for i in range(20):
+        print(str(next(nums)))

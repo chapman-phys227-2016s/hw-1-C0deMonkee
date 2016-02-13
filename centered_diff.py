@@ -14,17 +14,18 @@ Description: Approxiates many derivatives
 """
 
 import sympy as sp
+import math
 
 def quad(x):
     return (x**2)
-def exp(x):
-    return exp(x)
-def exp2(x):
-    return exp(-2*x**2)
-def cos(x):
-    return np.cos(x)
+def exponent(x):
+    return math.exp(x)
+def exponent2(x):
+    return math.exp(-2*x**2)
+def cosine(x):
+    return sp.cos(x)
 def ln(x):
-    return np.log(x)
+    return sp.log(x)
 
 def diff(f,x, h=1E-5):
     """
@@ -36,7 +37,7 @@ def test_diff():
     assert(diff(quad, 5) - 10 < 0.00001)
 
 def application():
-    print("error of e^x @ (x=0): " + abs(diff(exp, 0, .01) - 1))
-    print("error of e^(-2x^2) @ (x=0): " + abs(diff(exp, 0, .01)))
-    print("error of cos(x) @ (x=2pi): " + abs(diff(cos, 2*np.pi, .01)))
-    print("error of ln(x) @ (x=1): " + abs(diff(ln, 1, .01)))
+    print("error of e^x @ (x=0): " + str(abs(diff(exponent, 0, .01) - 1)))
+    print("error of e^(-2x^2) @ (x=0): " + str(abs(diff(exponent2, 0, .01))))
+    print("error of cos(x) @ (x=2pi): " + str(abs(diff(cosine, 2*sp.pi, .01))))
+    print("error of ln(x) @ (x=1): " + str(abs(diff(ln, 1, .01))))
