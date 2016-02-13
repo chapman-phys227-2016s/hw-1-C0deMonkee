@@ -1,6 +1,6 @@
 # PHYS227 HW 1
 
-**Author:** _\<your name\>_
+**Author:** _\<Austin Ayers\>_
 
 [![Build Status](https://travis-ci.org/chapman-phys227-2016s/hw-1-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/hw-1-YOURNAME)
 
@@ -19,7 +19,7 @@ Finally, to cleanly present your work, create a Jupyter notebook ```hw1.ipynb```
 
 ## Assessment
 
-_\<Analyze what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.\>_
+I found the problems moderately difficult, with a few challenges. But the largest problem came from getting things to work in the Notebook
 
 ## Honor Pledge
 
@@ -30,4 +30,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-_\<your name\>_
+_\<Austin Ayers\>_
