@@ -16,7 +16,7 @@ import numpy as np
 
 def II_derivative_max(f, a, b, n=654321):
     """
-    Calculates the maximum of the second derivative using many points: 654,321 of them to find the max of those       points.
+    Calculates the maximum of the second derivative using many points: 654,321 of them to find the max of those points.
     """
     delta = (b - a) / float(n)
     max = abs(II_derivative(f, a))
